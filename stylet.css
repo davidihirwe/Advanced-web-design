@@ -1,0 +1,86 @@
+
+table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+.tap
+{
+	padding-top: 5px;
+padding-right: 10px;
+padding-left: 10px;
+color: red;
+}
+
+th
+{
+	height: 50px;
+	font-size:25px ;
+	font-family: monospace;
+text-align: center;
+background-color:black;
+color: white;
+}
+td
+{
+	height: 25px;
+	text-align: center;
+
+}
+th,td
+{
+	padding: 15px;
+}
+tr:nth-child(even)
+{
+background-color: yellowgreen;
+}
+a
+{
+	margin-right: 50px;
+}
+.glyphicon 
+{
+	font-size: 30px;
+}
+.glyphicon-print
+{
+	color: black;
+}
+.glyphicon-edit
+{
+	color: blue;
+}
+.glyphicon-trash
+{
+	color: red;
+}
+.glyphicon-print:hover
+{
+	box-shadow: 0 0 5px 4px black;
+	transform: 0.6s;
+	border-radius: 4px;
+}
+.glyphicon-edit:hover
+{
+	box-shadow: 0 0 5px 4px blue;
+	transform: 0.6s;
+	border-radius: 4px;
+} 
+.glyphicon-trash:hover
+{
+	box-shadow: 0 0 5px 4px red;
+	transform: 0.6s;
+	border-radius: 4px;
+}
+#myInput
+{
+	width: 200px;
+	height: 50px;
+	font-size: 20;
+	padding: 8px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 2px sold darkorange;
+
+}
